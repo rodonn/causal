@@ -1,0 +1,6 @@
+digraph {
+	hot -> swimming
+	swimming -> drowning
+	hot -> "ice cream"
+	"ice cream" -> drowning [label="?"]
+}
