@@ -1,0 +1,5 @@
+digraph {
+	"expected spending" -> member
+	"expected spending" -> spending
+	member -> spending
+}

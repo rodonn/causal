@@ -1,0 +1,13 @@
+digraph {
+	rankdir=LR
+	Confounder -> Treatment
+	Confounder -> Outcome
+	Treatment -> Outcome
+	Treatment -> Mediator
+	Mediator -> Outcome
+	Treatment -> Collider
+	Outcome -> Collider
+	Confounder [color=grey style=filled]
+	Mediator [color=red]
+	Collider [color=red]
+}

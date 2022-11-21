@@ -1,0 +1,5 @@
+digraph {
+	rankdir=LR
+	Time -> "Rooster crows"
+	Time -> "Sun rises"
+}

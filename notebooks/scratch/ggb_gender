@@ -1,0 +1,5 @@
+digraph {
+	gender -> "take medicine"
+	gender -> "heart attack"
+	"take medicine" -> "heart attack"
+}

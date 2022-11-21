@@ -1,0 +1,6 @@
+digraph {
+	"take medicine" -> headache
+	"take medicine" -> "heart attack"
+	"health condition" -> headache
+	"health condition" -> "heart attack"
+}

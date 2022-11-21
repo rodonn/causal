@@ -1,0 +1,8 @@
+digraph {
+	rankdir=LR
+	Age -> "Walking Speed"
+	Age -> Mortality
+	"Walking Speed" -> Mortality
+	Health -> Mortality
+	Health -> "Walking Speed"
+}

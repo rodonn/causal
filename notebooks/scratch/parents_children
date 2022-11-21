@@ -1,0 +1,7 @@
+digraph {
+	"Parent 1" -> "Child 1"
+	"Parent 1" -> "Child 2"
+	"Parent 2" -> "Child 1"
+	"Parent 3" -> "Child 1"
+	"Parent 3" -> "Child 2"
+}

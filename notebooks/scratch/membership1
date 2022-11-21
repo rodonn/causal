@@ -1,0 +1,13 @@
+digraph {
+	gender -> member
+	age -> member
+	income -> member
+	location -> member
+	gender -> spending
+	age -> spending
+	income -> spending
+	location -> spending
+	member -> spending
+	member -> "number of purchases"
+	"number of purchases" -> spending
+}

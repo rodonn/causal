@@ -1,0 +1,18 @@
+digraph {
+	Confounder -> Treatment
+	Confounder -> Outcome
+	Instrument -> Treatment
+	Treatment -> Outcome
+	Treatment -> Mediator
+	Mediator -> Outcome
+	Treatment -> Collider
+	"Outcome
+Predictor" -> Outcome
+	Outcome -> Collider
+	Confounder [color=green style=filled]
+	"Outcome
+Predictor" [color=cyan style=filled]
+	Instrument [color=orange style=filled]
+	Mediator [color=red style=filled]
+	Collider [color=red style=filled]
+}

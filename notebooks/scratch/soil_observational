@@ -1,0 +1,9 @@
+digraph {
+	soil -> "plant growth"
+	sun -> "plant growth"
+	drainage -> "plant growth"
+	soil -> fertilizer
+	sun -> fertilizer
+	drainage -> fertilizer
+	fertilizer -> "plant growth"
+}
