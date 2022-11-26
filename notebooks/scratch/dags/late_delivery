@@ -1,0 +1,15 @@
+digraph {
+	"Customer Type (unobserved)" -> "Order Size"
+	"Customer Type (unobserved)" -> Restaurant
+	"Customer Type (unobserved)" -> "Customer Tenure"
+	"Customer Type (unobserved)" -> MAO
+	"Order Size" -> "Late Delivery"
+	Restaurant -> "Late Delivery"
+	Location -> "Late Delivery"
+	Location -> MAO
+	"Customer Tenure" -> "Late Delivery"
+	"Customer Tenure" -> MAO
+	"Late Delivery" -> "Customer Satisfaction"
+	"Customer Satisfaction" -> MAO
+	"Late Delivery" -> MAO
+}

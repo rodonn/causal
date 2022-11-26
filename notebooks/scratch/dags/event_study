@@ -1,0 +1,5 @@
+digraph {
+	X -> Y0
+	X -> Y1
+	T -> Y1
+}
