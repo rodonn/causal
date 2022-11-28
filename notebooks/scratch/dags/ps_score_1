@@ -1,0 +1,9 @@
+digraph {
+	X1 -> T
+	X1 -> Y
+	X2 -> T
+	X2 -> Y
+	X3 -> T
+	X3 -> Y
+	T -> Y
+}

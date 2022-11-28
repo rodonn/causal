@@ -1,0 +1,9 @@
+digraph {
+	X -> "P(T=1)"
+	X -> Y
+	Z -> "P(T=1)"
+	"P(T=1)" -> T
+	T -> Y
+	X [color=green style=filled]
+	Z [color=orange style=filled]
+}

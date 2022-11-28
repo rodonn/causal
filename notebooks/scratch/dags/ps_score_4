@@ -1,0 +1,15 @@
+digraph {
+	Gender -> "P(Take Medicine=1)"
+	Gender -> "Heart Attack"
+	"Healthy Habits
+(unobserved)" -> "P(Take Medicine=1)"
+	"Healthy Habits
+(unobserved)" -> "Heart Attack"
+	"Coin Flip" -> "P(Take Medicine=1)"
+	"P(Take Medicine=1)" -> "Take Medicine"
+	"Take Medicine" -> "Heart Attack"
+	Gender [color=green style=filled]
+	"Coin Flip" [color=orange style=filled]
+	"Healthy Habits
+(unobserved)" [color=grey style=filled]
+}
