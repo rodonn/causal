@@ -1,0 +1,29 @@
+digraph {
+	"Gender
+Age
+Interests
+Location" -> "How much user
+likes the product"
+	"Gender
+Age
+Interests
+Location" -> "See Ad"
+	"How much user
+likes the product" -> "Purchase
+product"
+	"How much user
+likes the product" -> "See Ad"
+	"See Ad" -> "Purchase
+product" [color=blue]
+	"User Activity" -> "Purchase
+product"
+	"User Activity" -> "See Ad"
+	"Other
+Advertisers" -> "Purchase
+product"
+	"Other
+Advertisers" -> "See Ad"
+	"See Ad" [color=blue]
+	"Purchase
+product" [color=blue]
+}

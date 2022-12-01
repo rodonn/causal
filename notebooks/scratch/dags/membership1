@@ -7,7 +7,9 @@ digraph {
 	age -> spending
 	income -> spending
 	location -> spending
-	member -> spending
-	member -> "number of purchases"
-	"number of purchases" -> spending
+	member -> spending [color=cornflowerblue penwidth=2]
+	member -> "number of purchases" [color=cornflowerblue penwidth=2]
+	"number of purchases" -> spending [color=cornflowerblue penwidth=2]
+	member [color=cornflowerblue style=filled]
+	spending [color=cornflowerblue style=filled]
 }

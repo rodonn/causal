@@ -4,10 +4,12 @@ digraph {
 	"Mother education" -> education
 	intelligence -> education
 	intelligence -> income
-	education -> income
+	education -> income [color=cornflowerblue penwidth=2]
 	education -> "job industry"
 	education -> "read WSJ"
 	"job industry" -> income
 	"job industry" -> "read WSJ"
 	"market conditions" -> income
+	education [color=cornflowerblue style=filled]
+	income [color=cornflowerblue style=filled]
 }

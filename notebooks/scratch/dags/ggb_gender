@@ -1,5 +1,7 @@
 digraph {
 	gender -> "take medicine"
 	gender -> "heart attack"
-	"take medicine" -> "heart attack"
+	"take medicine" -> "heart attack" [color=cornflowerblue penwidth=2]
+	"take medicine" [color=cornflowerblue style=filled]
+	"heart attack" [color=cornflowerblue style=filled]
 }

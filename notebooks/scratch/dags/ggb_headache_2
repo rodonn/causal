@@ -1,6 +1,8 @@
 digraph {
 	"take medicine" -> headache
-	"take medicine" -> "heart attack"
+	"take medicine" -> "heart attack" [color=cornflowerblue penwidth=2]
 	"health condition" -> headache
 	"health condition" -> "heart attack"
+	"take medicine" [color=cornflowerblue style=filled]
+	"heart attack" [color=cornflowerblue style=filled]
 }

@@ -3,5 +3,7 @@ digraph {
 	sun -> "plant growth"
 	drainage -> "plant growth"
 	"coin flip" -> fertilizer
-	fertilizer -> "plant growth"
+	fertilizer -> "plant growth" [color=cornflowerblue penwidth=2]
+	fertilizer [color=cornflowerblue style=filled]
+	"plant growth" [color=cornflowerblue style=filled]
 }
